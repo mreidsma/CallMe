@@ -1,0 +1,48 @@
+/* Lines below are just for the demo. Delete them before you add to your site */
+
+body { font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1 { font-size: 1.5em; }
+
+/* CSS below styles the call functions */
+
+#callme {
+display: inline-block;
+font-weight:bold;
+text-decoration:none;
+cursor: pointer;
+margin-bottom:1.25em;
+padding: .333em .75em;
+font-size:.8em;
+line-height:1.3125em;}
+
+.button-grey {
+background:#eee;
+background:-moz-linear-gradient(top, rgba(255, 255, 255, .2) 0%, rgba(0, 0, 0, .2) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255, 255, 255, .2)), color-stop(100%,rgba(0, 0, 0, .2)));
+background: -webkit-linear-gradient(top, rgba(255, 255, 255, .2) 0%,rgba(0, 0, 0, .2) 100%);
+background: -o-linear-gradient(top, rgba(255, 255, 255, .2) 0%,rgba(0, 0, 0, .2) 100%);
+background: -ms-linear-gradient(top, rgba(255, 255, 255, .2) 0%,rgba(0, 0, 0, .2) 100%);
+background: linear-gradient(top, rgba(255, 255, 255, .2) 0%,rgba(0, 0, 0, .2) 100%);
+border: 1px solid #aaa;
+border-top: 1px solid #ccc;
+border-left: 1px solid #ccc;
+-moz-border-radius:.25em;
+-webkit-border-radius:.25em;
+border-radius:.25em;
+color: #444;
+text-shadow: 0 1px rgba(255, 255, 255, .75);}
+
+.button-blue {
+background: #0090D2; 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(.2, #52a8e8), color-stop(1, #2e76cf));
+background: -moz-linear-gradient(center top, #52a8e8 20%, #2e76cf 100%);
+border: 1px solid #4081af; 
+border-bottom-color: #20559a;
+-webkit-border-radius: 4px; -moz-border-radius: 4px; 
+border-radius: 4px; 
+-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29); 
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29); 
+box-shadow: inset 0 1px 0 rgba(255,255,255,.3), inset 0 0 2px rgba(255,255,255,.3), 0 1px 2px rgba(0,0,0,.29);
+color: white;
+font-weight:normal!important;
+text-shadow:none!important; }
