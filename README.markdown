@@ -10,7 +10,11 @@ Google Voice provides a Flash call widget that can be embedded on the web, but F
 
 You need a Google Voice account to use CallMe. Log into your account and go to Settings. Under "Call Widgets," create a widget with the settings you want and copy the embed code. You should have something like this:
 
-	<object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="230" height="85"><param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" /><param name="wmode" value="transparent" /><param name="FlashVars" value="id=lkjshdlkjashfpwehjlaksjhk&style=0" /></object>
+	<object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="230" height="85">
+		<param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" />
+		<param name="wmode" value="transparent" />
+		<param name="FlashVars" value="id=lkjshdlkjashfpwehjlaksjhk&style=0" />
+	</object>
 	
 You want the value of the "id" variable under the last <code>&lt;param&gt;</code> tag. Now, open callme.js in your favorite text editor. On line 8, add the "id" value you copied above between the quotes. You should have something like this:
 
