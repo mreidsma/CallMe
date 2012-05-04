@@ -16,6 +16,8 @@ You want the value of the "id" variable under the last <code>&lt;param&gt;</code
 
 	// Set the Google Voice ID from the embed dialer code
 	var gv_id = "lkjshdlkjashfpwehjlaksjhk";
+
+CallMe requires jQuery. You can upload a copy to your server or grab it from the Google API. Learn more at http://jquery.com
 	
 In your HTML file, give your chosen call trigger the id of "callme" (you can use any element as a call trigger). Upload the callme.js file to your server (and the callme.css if you want to use my styles) and reference them in your HTML file. Now, refresh the page and click your call trigger. Enter your phone number (not a Google Voice number) into the box and that phone will ring and ask to connect you to your Google Voice number. 
 
