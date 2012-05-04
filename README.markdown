@@ -25,7 +25,7 @@ More questions? Feel free to contact Matthew Reidsma on Twitter at @mreidsma or 
 
 ## DEMO
 
-You can view a live version of this tool at http://matthewreidsma.com/projects/callme
+You can view a live version of this tool at http://matthewreidsma.com/email
 
 ## COPYRIGHT
 
